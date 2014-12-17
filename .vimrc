@@ -19,7 +19,7 @@ set softtabstop=4
 
 :let $TEMPLATE = "/Users/bpickard/Github/Web-Development/template.html"
 :let $CSS_TEMPLATE = "/Users/bpickard/Github/Web-Development/ets2014v2.css"
-:let $WORKINGDIR = "/Users/bpickard/Desktop/owncloud/Course\ Work/ECED425/2014W2/html"
+:let $WORKINGDIR = "/Users/bpickard/Desktop/owncloud/Course\ Work/"
     
 let @a='"gdi<a href=""+pi€kr" target="_blank""€kb>"gpi€kr</a>'
 let @b='"gdi<strong>?€kb"gpi€kr</strong>'
