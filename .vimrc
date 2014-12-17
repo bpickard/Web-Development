@@ -38,7 +38,7 @@ let @o='"gdO	<ol>	</ol>€ku	"gp€kudd'
 let @p='0wi<p>$i€kr</p>0j'
 let @r='"gdi<span style="color:ref€kbd;">"gp$i€kr</span>0€kr€klw'
 let @s='"gdi	<!-- **€ü SECTION€ü START€ü ******************************************************** -->	<!-- ((€ü €ü€kb€ü€kb€ü€kb**€ü SECTION€ü END€ü **********************************************************€ü -->€ku€ku	<div class="section" id="page#">€kd	</div>O		<footer>		<a href="#top">Back to Top €kb</a> | Page # of #	</footer>€ku€ku€kui€ku	"gp€kb€kb€kb"gp€kudd'
-let @t='ggVG"gd:r /Users/bpickard/Desktop/Github/Web-Development/template.html:0:setf html'
+let @t='ggVG"gd:r /Users/bpickard/Github/Web-Development/template.html:0:setf html'
 let @u="oooo$mzoma'z$aa	</ul>'aO	<ul>"
 let @w='0w"gywdwi<<€kb"gpi>€kD$€kb$i€kr</"gpi>0wj'
 let @x='i<iframe id="theIframe" frameborder="0" widrg=€kb€kb€kbth="620" height="420" src="https://connect.ubc.ca/webapps/osv-kaltura-bb_bb60/jsp/viewContent1.jp€kbsp?entry_id=ENTRY_ID&amp;iframe€kb=€kbe=true"></igr€kb€kbframe>'
