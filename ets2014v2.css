@@ -1,0 +1,463 @@
+@charset "UTF-8";
+	html, body,form,fieldset,table{
+		max-width:800px;
+		min-width:800px;
+		font-family: 'PT Sans', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+		font-size:100%;
+		margin-left: 10px;
+		padding-bottom:20px;
+
+	}
+	
+	body *::selection {
+		background: #fff2a8;
+	}
+
+	body h1, body h2{
+		font-family:'Roboto',Georgia,Times,serif;
+		font-weight: normal;
+	}
+
+	body h1{
+		color:#1C205B;
+		margin: 0 0 12px 0;
+		font-size:175%;
+	}
+
+	body h2{
+		color: #BF1722;
+		font-size: 135%;
+		border-bottom: 1px solid;
+		margin:0;
+		margin-bottom: 14px;
+		line-height:1.25em;
+		font-weight: bold;
+	}
+
+	body h3 {
+		color:#223785;
+		border-bottom: 1px dashed #5E5E5E;
+		font-family:'Kameron',Georgia,Times,serif;
+		font-weight: normal;
+		margin-top:0px;
+		overflow:hidden;
+	}
+	
+	body h4 {
+		font-family:'Kameron',Georgia,Times,serif;
+	}
+
+	blockquote {
+		padding: 1em 1.5em 1em 4em;
+		margin: 1em auto 1em auto;
+		border-radius: 4px;
+	}
+
+	blockquote.quote cite{
+		text-align:right;
+		font-family:'Roboto';
+		font-style:normal;
+		font-size:110%;
+		color:#999;
+		margin-top:0.5em;
+		display:block;
+	}
+
+	blockquote.quote cite:before{
+		content:'–';
+	}
+
+	blockquote.quote{
+		font-style:italic;
+		line-height:1.5em;
+		z-index:0;
+	}
+
+	blockquote.quote:before{
+		content:'“';
+		line-height:1.3em;
+		z-index:-1;
+		font-size:900%;
+		color:#AAAAAA;
+		padding-right:35px;
+		margin-left:-0.55em;
+		margin-top:-0.15em;
+		position:absolute;
+	}
+
+	blockquote.box{
+		padding: 1em 1.5em 1em 1.5em;
+		margin: 1em 3em 1em 3em;
+
+	}
+
+	blockquote.assignment, blockquote.media,blockquote.discussion,blockquote.quote,blockquote.timeline,blockquote.box,blockquote.activity, blockquote.asterisk, blockquote.readings, blockquote.lookup, blockquote.question{
+		background-color:#FFFFFF;
+		border:1px solid #CCC;
+		position:relative;
+		z-index:0;
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #FFFFFF),
+			color-stop(1, #F8F8F8)
+		);
+		background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F8F8F8 100%);
+		background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F8F8F8 100%);
+		background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F8F8F8 100%);
+		background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F8F8F8 100%);
+		background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 100%);
+		-webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.5);
+		box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.5);
+		}
+
+	blockquote.assignment:before{
+		content:'\270E';
+		z-index:-1;
+		line-height:1.3em;
+		font-size:300%;
+		color:#AAAAAA;
+		margin-left:-1.1em;
+		padding-right:10px;
+		margin-top:-0.35em;
+		position:absolute;
+		font-family:'Arial Unicode MS','LastResort';	
+	}
+
+	blockquote.readings:before {
+		content: '\f02d';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color: #AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+
+	blockquote.question:before {
+		content: '\f128';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 300%;
+		color: #AAAAAA;
+		margin-left: -1em;
+		padding-right: 10px;
+		margin-top: -0.3em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+
+	blockquote.asterisk:before{
+		content: '\2731';
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 300%;
+		color: #AAAAAA;
+		margin-left: -1.05em;
+		padding-right: 10px;
+		margin-top: -14px;
+		position: absolute;
+
+	}
+
+
+	blockquote.media:before {
+		content: '▶▶';
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 171%;
+		color: #AAAAAA;
+		margin-left: -1.85em;
+		padding-right: 10px;
+		margin-top: 0px;
+		position: absolute;
+	}
+
+	blockquote.discussion:before {
+		content: '\f0e6';
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color:#AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family:'FontAwesome';
+	}
+
+	blockquote.lookup:before {
+		content: '\f06e';
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color:#AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family:'FontAwesome';
+	}
+	blockquote.timeline:before{
+		content: '\231a';
+		z-index: -1;
+		line-height:1.3em;
+		font-size:335%;
+		color:#AAAAAA;
+		margin-left:-0.7em;
+		padding-right: 10px;
+		margin-top:-0.525em;
+		position:absolute;
+		font-family:'Arial Unicode MS','LastResort';
+
+	}
+
+	blockquote.activity:before{
+		content: '\2611';
+		z-index: -1;
+		line-height:1.3em;
+		font-size:300%;
+		color:#AAAAAA;
+		margin-left:-1em;
+		padding-right: 10px;
+		margin-top:-0.45em;
+		position:absolute;
+		font-family:'Arial Unicode MS','LastResort';
+
+
+	}
+
+
+	blockquote h4{
+		font-family:'PT Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+		font-weight:bold;
+		font-size:130%;
+		margin: -0.25em 0 -0.25em 0;
+	}
+
+	blockquote h3{
+		font-size:160%;
+	}	
+
+
+	.inset-right{
+		float:right;
+		padding: 0px 0px 0px 25px;	
+		margin-top:-0.75em;
+		word-wrap:break-word;
+	}
+
+	.inset-left:after,.inset-right:after{
+		clear:both;
+		
+	}
+
+	.inset-left{
+		float:left;
+		padding: 0px 25px 0px 0px;
+		margin-top:-0.75em;
+		word-wrap:break-word;
+
+	}
+
+	.inset-right img, .inset-left img, .inset-left iframe, .inset-right iframe{
+		width:inherit;
+		margin-top:15px;
+		margin-bottom:5px;
+	}	
+
+	.inset-right blockquote iframe,.inset-left blockquote iframe{
+		margin-top:0px;
+	}
+
+	.inset-right cite, .inset-left cite{
+		margin-bottom:5px;
+	}
+
+	p cite{
+		font-size:12px;
+		margin-top:-10px;
+		display:block;
+	}	
+	
+
+	div.inset-left cite{
+		text-align:left;
+		display:block;
+		font-style:normal;
+		font-size:12px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	div.inset-right cite{
+		text-align:right;
+		font-style:normal;
+		display:block;
+		font-size:12px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.dash{
+		border-bottom:1px dashed grey;
+		border-top:0px;
+	}
+
+	.pullquote-left {
+	    float:left;	  	
+
+	}
+
+	.pullquote-right{
+	    float:right;
+	}
+
+	.pullquote-right blockquote{
+		margin: 0.2em 0 1.3em 1.5em;
+		padding: 1em 2em 1.2em 3em;
+		width:18em;
+	
+	}
+
+	.pullquote-left blockquote{
+	    margin:0.2em 1.5em 0.3em 0 ;
+	    padding: 1em 2em 1.2em 3em;
+	    width:18em;
+	}
+
+	.pullquote-left blockquote.media:before, .pullquote-right blockquote.media:before{
+	   margin-left:-10%;
+	   font-size:119%;
+	   margin-top:4px;
+	}
+
+	.pullquote-left blockquote.quote:before, .pullquote-right blockquote.quote:before{
+	   font-size:600%;
+	   margin-left:-55px;
+	   margin-top:-3px;	
+	}
+
+	.pullquote-left blockquote.assignment:before, .pullquote-right blockquote.assignment:before{
+	   font-size:300%;
+	   margin-left:-10%;
+	}
+
+	.pullquote-left blockquote.discussion:before, .pullquote-right blockquote.discussion:before{
+	   font-size:200%;
+	   margin-left:-40px;
+	   margin-top:-2px;
+
+	}
+
+	.inset-right:after{
+		clear:both;
+	}
+
+
+	a{color:#20399d;}
+	a:visited{color:#20399d;}
+	a:hover{color:#BF1722;}
+
+	.note{
+	   color:red;
+	}
+
+
+	.section footer{
+		text-align:right;
+		font-family:'Roboto',Georgia,Times,serif;
+		font-size:14px;
+		color:#000000;
+		margin-bottom:-10px;
+	}
+
+
+	.section ul, .section ol{
+		line-height:1.5em;
+		margin-left:-20px;
+		margin-bottom:1em;
+	}
+	
+	ul.indent, ol.indent{
+
+		margin-left:0;
+	
+	}
+
+	ul.references{
+	  list-style-type:none;
+	  margin-left:-2em;
+	}
+
+	ul.references>li{
+	  margin-left:1.6em;
+	  text-indent:-2em;
+	  margin-bottom:1em;
+	  word-wrap:break-word;
+	}
+
+	table.standard{
+		border-collapse:collapse;
+	    border-spacing: 0;	
+	}
+
+	table.standard td{
+		padding: 6px;
+		border: 1px solid black;
+	}
+
+	#page1,#page2,#page3,#page4,#page5,#page6,#page7,#page8,#page9,#page10,#page11,#page12,#page13,#page14,#page15{
+		margin-left:-20px;
+		padding-left:20px;
+		margin-right:-20px;
+		padding:15px;
+	}
+
+
+	#page2,#page4,#page6,#page8,#page10,#page12,#page14{
+		background-color:#F8F8F8;
+		border-style:dashed; 
+		border-width:1px 0px 1px 0px;
+		border-color:#1c205b;
+	}
+
+
+	#PDCE{
+		border-width:1px 0px 1px 0px;
+		border-color:#4475a5;
+		border-style:solid;
+		padding:10px 0px 10px 0px;
+		text-align:center;
+		font-size:90%;
+		color:#4475a5;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		letter-spacing:0.25ex;
+		margin: 20px 0 0 0 ;
+	}
+
+	#PDCE:before{
+		content:"Professional Development and Community Engagement";
+	}
+	
+	.print{
+	       background-image:url(https://connect.ubc.ca/bbcswebdav/xid-7115117_1);
+	       background-repeat:no-repeat;
+	       padding-left:20px;
+	       background-position:0% 100%;
+	       margin-top:1.5em;
+	}
+
+
+@media print{
+	#PDCE {display:none;}
+	#PDCE:before{display:none;}
+	.section footer{display:none;}
+	.print {display:none}
+	
+}
