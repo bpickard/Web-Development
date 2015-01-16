@@ -91,7 +91,7 @@
 
 	}
 
-	blockquote.assignment, blockquote.media,blockquote.discussion,blockquote.quote,blockquote.timeline,blockquote.box,blockquote.activity, blockquote.asterisk, blockquote.readings, blockquote.lookup, blockquote.question{
+	blockquote.assignment, blockquote.media,blockquote.discussion,blockquote.quote,blockquote.timeline,blockquote.box,blockquote.activity, blockquote.asterisk, blockquote.readings, blockquote.lookup, blockquote.question, blockquote.online, blockquote.papers, blockquote.group{
 		background-color:#FFFFFF;
 		border:1px solid #CCC;
 		position:relative;
@@ -128,6 +128,49 @@
 
 	blockquote.readings:before {
 		content: '\f02d';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color: #AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+	
+	blockquote.group:before {
+		content: '\f0c0';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color: #AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+
+
+	blockquote.online:before {
+		content: '\f0ac';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color: #AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+
+	blockquote.papers:before {
+		content: '\f0c5';
 		display: inline-block;
 		z-index: -1;
 		line-height: 1.3em;
