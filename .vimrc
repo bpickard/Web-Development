@@ -1,3 +1,5 @@
+:execute pathogen#infect()
+:autocmd BufEnter * lcd %:p:h
 :colorscheme evening
 :set ruler
 :set ignorecase
@@ -19,7 +21,7 @@ set softtabstop=4
 
 :let $TEMPLATE = "/Users/bpickard/Github/Web-Development/template.html"
 :let $CSS_TEMPLATE = "/Users/bpickard/Github/Web-Development/ets2014v2.css"
-:let $WORKINGDIR = "/Users/bpickard/Desktop/owncloud/Course\ Work/ADHE412/2014W2/html"
+:let $WORKINGDIR = "/Users/bpickard/Desktop/owncloud/Course\ Work/EDUC500/2014W2-Pighini/html"
     
 let @a='"gdi<a href=""+pi€kr" target="_blank""€kb>"gpi€kr</a>'
 let @b='"gdi<strong>?€kb"gpi€kr</strong>'
@@ -29,8 +31,8 @@ let @e=':v/^\s<.*/s /\s\([A-Za-z].*\)/\t<p>\1<\/p>/c'
 let @f='%s /<a href=\(.\{-}\)>/<a href=\1 target=\"_blank\">/gc'
 let @h='0wi<div id="imgheading" class=""><P€kbp>$i€kri€kb</p></div>F"F'
 let @i='"gdi<em>"gpi€kr</em>'
-let @j='"gdO	<blockquote class="">	</blockquote>€ku		"g€kb€kb"gp>>€kudd€kuO€kdf"'
-let @k='"gdO		<div clas=€kbs="idnet€kb€kb€kb€kbnset-riu€kbghjt€kb€kbt">		</div>P€kudd'
+let @j='"gdO	<blockquote>€kb class=""></blockquote>€ku€kr€kr€kr€kr€kr€krmaombomc`b"gp`bV`c>dd`cdd`a'
+let @k='"gdO	<div class="inset-right"></diob€kb€kbv>€kumaomb€kb€kbmb`a"gp`aV`b>dd`bdd'
 let @l='0wi<li>$i€kr</li>j0€kr'
 let @m='i<img src="iamges/€kb€kb€kb€kb€kb€kbmages/" alt="$i" />0€kr€kd€kuji	€kr'
 let @n='i<igrame €kb€kb€kb€kb€kb€kbframe width="480" height="€KF€KI€KC" src="httpd€kbs:// a"€kb€kb>€kb?rel-=€kb€kb=0" frameborder="0" allowfullscreen></iframe>q€kb'
@@ -39,12 +41,10 @@ let @p='0wi<p>$i€kr</p>0j'
 let @r='"gdi<span style="color:ref€kbd;">"gp$i€kr</span>0€kr€klw'
 let @s='"gdi	<!-- **€ü SECTION€ü START€ü ******************************************************** -->	<!-- ((€ü €ü€kb€ü€kb€ü€kb**€ü SECTION€ü END€ü **********************************************************€ü -->€ku€ku	<div class="section" id="page#">€kd	</div>O		<footer>		<a href="#top">Back to Top €kb</a> | Page # of #	</footer>€ku€ku€kui€ku	"gp€kb€kb€kb"gp€kudd'
 let @t='ggVG"gd:r /Users/bpickard/Github/Web-Development/template.html:0:setf html'
-let @u="oooo$mzoma'z$aa	</ul>'aO	<ul>"
+let @u='"gdO	<ul class=""></ul>€ku€ü€€kr€ku€kuf"ma€kdmb€kdmc`b"gp`bV`c>dd`cdd`a'
 let @w='0w"gywdwi<<€kb"gpi>€kD$€kb$i€kr</"gpi>0wj'
 let @x='i<iframe id="theIframe" frameborder="0" widrg=€kb€kb€kbth="620" height="420" src="https://connect.ubc.ca/webapps/osv-kaltura-bb_bb60/jsp/viewContent1.jp€kbsp?entry_id=ENTRY_ID&amp;iframe€kb=€kbe=true"></igr€kb€kbframe>'
 let @z='vit"gdddO"€kb"gp>>>>'
-
-
 
 nnoremap <C-c> :!open -a Google\ Chrome '%'<CR><CR>
 
@@ -59,6 +59,7 @@ nnoremap <F8> :normal 0wih4 <esc>@w <CR>
 nnoremap <F9> :normal 0wicite <esc>@w <CR>
 nnoremap <F10> :lcd %:p:h
 nnoremap <F11> :0<CR>/<h2><CR> :normal vity <esc> :11<CR> :normal f>p<CR>:0<CR>/<h2><CR>:normal O<CR><esc>:normal "np<CR> 
+nnoremap <F12> :NERDTreeToggle<CR>
 
 nnoremap <C-d> :g/^$/d <CR>
 
