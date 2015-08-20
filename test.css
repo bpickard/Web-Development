@@ -1,0 +1,327 @@
+#PDCE {
+	border-bottom-width: 1px;
+	border-color: rgb(68, 117, 165);
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-style: solid;
+	border-top-width: 1px;
+	color: rgb(68, 117, 165);
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 90%;
+	letter-spacing: 0.25ex;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#page1 .quote {
+	font-style: italic;
+	line-height: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+#page1 blockquote {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1.5em;
+}
+
+#page2 {
+	background-color: rgb(248, 248, 248);
+	border-bottom-width: 1px;
+	border-color: rgb(28, 32, 91);
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-style: dashed;
+	border-top-width: 1px;
+}
+
+#page2 .quote {
+	font-style: italic;
+	line-height: 1.5em;
+	margin-top: 0.2em;
+	padding-bottom: 1.2em;
+	padding-left: 3em;
+	padding-right: 2em;
+	width: 18em;
+}
+
+.activity {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.assignment {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.asterisk {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.box {
+	margin-left: 3em;
+	margin-right: 3em;
+	padding-left: 1.5em;
+}
+
+.discussion {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.indent {
+	margin-left: 0px;
+}
+
+.inset-left {
+	float: left;
+	margin-top: -0.75em;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 25px;
+	padding-top: 0px;
+	word-wrap: break-word;
+}
+
+.inset-left cite {
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.inset-left img {
+	margin-bottom: 5px;
+	margin-top: 15px;
+	width: inherit;
+}
+
+.inset-right {
+	float: right;
+	margin-top: -0.75em;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 0px;
+	padding-top: 0px;
+	word-wrap: break-word;
+}
+
+.inset-right blockquote {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1.5em;
+}
+
+.inset-right cite {
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	margin-bottom: 5px;
+	text-align: right;
+}
+
+.lookup {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.media {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.print {
+	background-image: url(https://connect.ubc.ca/bbcswebdav/xid-7115117_1);
+	background-position-x: 0%;
+	background-position-y: 100%;
+	background-repeat: no-repeat;
+	margin-top: 1.5em;
+	padding-left: 20px;
+}
+
+.pullquote-left {
+	float: left;
+}
+
+.pullquote-left blockquote {
+	margin-bottom: 0.3em;
+	margin-left: 0px;
+	margin-right: 1.5em;
+}
+
+.pullquote-right {
+	float: right;
+}
+
+.pullquote-right blockquote {
+	margin-bottom: 1.3em;
+	margin-left: 1.5em;
+	margin-right: 0px;
+}
+
+.question {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.quote cite {
+	color: rgb(153, 153, 153);
+	display: block;
+	font-family: Roboto;
+	font-size: 110%;
+	font-style: normal;
+	margin-top: 0.5em;
+	text-align: right;
+}
+
+.readings {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4em;
+}
+
+.references {
+	list-style-type: none;
+	margin-left: -2em;
+}
+
+.references li {
+	margin-bottom: 1em;
+	margin-left: 1.6em;
+	text-indent: -2em;
+	word-wrap: break-word;
+}
+
+.section {
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 15px;
+}
+
+a {
+	color: rgb(32, 57, 157);
+}
+
+blockquote {
+	-webkit-box-shadow: rgba(50, 50, 50, 0.496094) 2px 2px 8px 0px;
+	background-color: rgb(255, 255, 255);
+	background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255) 0%, rgb(248, 248, 248) 100%);
+	border-color: rgb(204, 204, 204);
+	border-radius: 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: rgba(50, 50, 50, 0.496094) 2px 2px 8px 0px;
+	padding-top: 1em;
+	position: relative;
+	z-index: 0;
+}
+
+blockquote h3 {
+	font-size: 160%;
+}
+
+blockquote h4 {
+	font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	margin-bottom: -0.25em;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -0.25em;
+}
+
+body {
+	margin-left: 10px;
+	max-width: 800px;
+	min-width: 800px;
+	padding-bottom: 20px;
+}
+
+div footer {
+	color: rgb(0, 0, 0);
+	font-family: Roboto, Georgia, Times, serif;
+	font-size: 14px;
+	margin-bottom: -10px;
+	text-align: right;
+}
+
+h1 {
+	color: rgb(28, 32, 91);
+	font-family: Roboto, Georgia, Times, serif;
+	font-size: 175%;
+	font-weight: normal;
+	margin-bottom: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+h2 {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: rgb(191, 23, 34);
+	font-family: Roboto, Georgia, Times, serif;
+	font-size: 135%;
+	font-weight: bold;
+	line-height: 1.25em;
+	margin-bottom: 14px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+h3 {
+	border-bottom-color: rgb(94, 94, 94);
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	color: rgb(34, 55, 133);
+	font-family: Kameron, Georgia, Times, serif;
+	font-weight: normal;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+html {
+	font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	margin-left: 10px;
+	max-width: 800px;
+	min-width: 800px;
+	padding-bottom: 20px;
+}
+
+iframe {
+	margin-bottom: 5px;
+	margin-top: 0px;
+	width: inherit;
+}
+
+ul {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+

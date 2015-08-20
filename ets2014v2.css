@@ -8,6 +8,10 @@
 		padding-bottom:20px;
 
 	}
+
+	ul.alpha,ol.alpha{
+		list-style-type:lower-alpha;
+	}
 	
 	body *::selection {
 		background: #fff2a8;
@@ -91,7 +95,14 @@
 
 	}
 
-	blockquote.assignment, blockquote.media,blockquote.discussion,blockquote.quote,blockquote.timeline,blockquote.box,blockquote.activity, blockquote.asterisk, blockquote.readings, blockquote.lookup, blockquote.question, blockquote.online, blockquote.papers, blockquote.group{
+	blockquote.widebox{
+		padding: 1em 1.5em 1em 1.5em;
+		margin: 1em 3em 1em 3em;
+		width:760px;
+		margin:auto;
+	}
+
+	blockquote.assignment, blockquote.media,blockquote.discussion,blockquote.quote,blockquote.timeline,blockquote.box,blockquote.widebox,blockquote.activity, blockquote.asterisk, blockquote.readings, blockquote.lookup, blockquote.question, blockquote.online, blockquote.papers, blockquote.group, blockquote.audio, blockquote.fa-icon{
 		background-color:#FFFFFF;
 		border:1px solid #CCC;
 		position:relative;
@@ -182,6 +193,21 @@
 		position: absolute;
 		font-family: 'FontAwesome';
 	}
+
+		blockquote.audio:before {
+		content: '\f025';
+		display: inline-block;
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color: #AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family: 'FontAwesome';
+	}
+
 
 	blockquote.question:before {
 		content: '\f128';
@@ -276,7 +302,20 @@
 
 
 	}
-
+	
+	blockquote.fa-icon:before{
+		content:attr(data-icon);
+		z-index: -1;
+		line-height: 1.3em;
+		font-size: 225%;
+		color:#AAAAAA;
+		margin-left: -1.4em;
+		padding-right: 10px;
+		margin-top: -0.2em;
+		position: absolute;
+		font-family:'FontAwesome';
+	}
+	
 
 	blockquote h4{
 		font-family:'PT Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -329,7 +368,12 @@
 		margin-top:-10px;
 		display:block;
 	}	
-	
+
+	p.caption{
+		text-align:right;
+		font-size:13px;
+		margin-top:-1em;
+	}
 
 	div.inset-left cite{
 		text-align:left;
@@ -345,6 +389,12 @@
 		display:block;
 		font-size:12px;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	div.iquote{
+		margin-left:1em;
+		padding:0.25em;
+		border-left:4px solid #ccc;
 	}
 
 	.dash{
@@ -471,7 +521,7 @@
 	}
 
 
-	#PDCE{
+	#PDCE,#ETEC{
 		border-width:1px 0px 1px 0px;
 		border-color:#4475a5;
 		border-style:solid;
@@ -487,6 +537,11 @@
 	#PDCE:before{
 		content:"Professional Development and Community Engagement";
 	}
+
+	#ETEC:before{
+		content:" ";
+	}
+
 	
 	.print{
 	       background-image:url(https://connect.ubc.ca/bbcswebdav/xid-7115117_1);
