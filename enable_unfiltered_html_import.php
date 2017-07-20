@@ -1,3 +1,4 @@
+<?php 
 /**
  * Plugin Name: Enable Unfiltered HTML on Import
  * Plugin URI: https://github.com/bpickard/Web-Development/blob/master/enable_unfiltered_html_import.php
@@ -8,6 +9,5 @@
  * License: GPL2
  */
 
-<?php 
   add_filter( 'force_filtered_html_on_import' , '__return_false' );
 ?>
